@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Cred from './components/js/Cred';
 
 ReactDOM.render(
-  <Router>
+  <Router basename='/'>
     <App /></Router>,
   document.getElementById('root')
 );
