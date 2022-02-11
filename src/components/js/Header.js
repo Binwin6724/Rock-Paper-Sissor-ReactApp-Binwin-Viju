@@ -5,7 +5,7 @@ const Header = ({ score }) => {
 
   return (
     <div className='header'>
-      <h2 className='Heading_head'>Rock. Paper. Sissor.</h2>
+      <h2 className='Heading_head'>Rock. Paper. Scissor.</h2>
       <h1 className='score_box'>Score: {score}</h1>
 
     </div>
