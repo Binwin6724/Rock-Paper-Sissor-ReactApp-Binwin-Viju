@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Play from './components/js/Play'
+import Game from './components/js/Game'
+import { Routes, Route } from 'react-router-dom'
+import Cred from './components/js/Cred';
+import Triangle from '../src/images/bg-triangle.svg'
+import React, { useState } from 'react'
 
 function App() {
+
+  const [myChoice, setMyChoice] = useState('');
+  const [score, setScore] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+<Routes>
+  <Route path='/' element={<Cred />}></Route>
+  
+  <Route path='/play' element={<Play setMyChoice={setMyChoice} score={score}/>}></Route>
+  <Route path='/game' element={<Game myChoice={myChoice} score={score} setScore={setScore} />}></Route>
+</Routes>
     </div>
   );
 }

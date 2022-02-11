@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+.header {
+    display: flex;
+    width: 100%;
+
+    margin-top: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Heading_head {
+    
+    font-family: Calibri;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    align-items: flex-start;
+    line-height: 2rem;
+    color            : rgb(0, 0, 0);
+    letter-spacing: 0.2em;
+  }
+  
+  @keyframes pulsate {
+    50%{ stroke-width:5px }
+  }
+.score_box {
+    padding: 12px 40px;
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 1rem;
+    margin-right: 25px;
+
+}

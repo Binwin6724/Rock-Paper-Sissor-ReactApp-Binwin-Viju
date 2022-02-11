@@ -1,0 +1,40 @@
+.play {
+    animation: change 15s infinite;
+   min-height: 100vh;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  display:block;
+}
+
+
+
+.items {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 100px;
+}
+.icon{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    display: flex;
+} 
+
+.paper--icon{
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.sissor--icon{
+
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.rock--icon{
+
+    margin-right: 60px;
+    margin-left: 60px;
+}

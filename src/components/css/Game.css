@@ -1,0 +1,101 @@
+.game {
+    overflow: hidden;
+    animation: change 15s infinite;
+   min-height: 100vh;
+  }
+.btn_restart{
+    border-radius: 15px;
+    outline: 0;
+    letter-spacing: 0.2em;
+    margin: 20px;
+}
+
+.btn_restart {
+    z-index: 1;
+    font-size: inherit;
+    font-family: inherit;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(236, 100%, 83%);
+  }
+  
+  .btn_restart:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+
+
+  .btn_again{
+    border-radius: 15px;
+    outline: 0;
+    letter-spacing: 0.2em;
+    margin: 20px;
+}
+
+.btn_again {
+    z-index: 1;
+    font-size: inherit;
+    font-family: inherit;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(76, 100%, 83%);
+  }
+  
+  .btn_again:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+
+
+  .link_restart{
+      text-decoration: none;
+      color: inherit;
+  }
+
+  
+  @keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+  
+
+  .chooice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    position: relative;
+    
+  }
+
+  .my_choice{
+    height: 120px;
+    width: 120px;
+    
+    position: relative;
+    display: flex;
+    margin-right: 50px;
+  }
+
+  .house_choice{
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+    position: relative;
+    display: flex;
+  }
