@@ -3,7 +3,6 @@ import Play from './components/js/Play'
 import Game from './components/js/Game'
 import { Routes, Route } from 'react-router-dom'
 import Cred from './components/js/Cred';
-import Triangle from '../src/images/bg-triangle.svg'
 import React, { useState } from 'react'
 
 function App() {
